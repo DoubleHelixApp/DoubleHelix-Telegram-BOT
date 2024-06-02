@@ -10,6 +10,8 @@ Logging from API Gateway is disabled.
 
 Configure and deploy with:
 ```bash
+git clone https://github.com/WGSE-NG/TelegramBOT
+cd TelegramBOT
 python -m venv .venv
 source .venv/bin/activate # Linux
 .venv\Scripts\activate.bat # Windows
