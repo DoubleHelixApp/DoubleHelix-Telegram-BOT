@@ -1,4 +1,4 @@
-# Welcome to your CDK Python project!
+# WGSE-NG Telegram BOT
 
 This is a CDK project that deploy a stack with an API Gateway and a lambda on AWS that is used to send a message in a Telegram group.
 The API Gateway endpoint can be added as a webhook to a GitHub project to trigger the notification.
