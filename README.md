@@ -8,7 +8,8 @@ The only thing that needs to be configure manually is a secret named `TelegramBO
 
 Logging from API Gateway is disabled.
 
-```
+Configure and deploy with:
+```bash
 python -m venv .venv
 source .venv/bin/activate # Linux
 .venv\Scripts\activate.bat # Windows
