@@ -6,7 +6,7 @@ The lambda will process only `released` and `prereleased` actions from GitHub.
 
 The only thing that needs to be configure manually is a secret named `TelegramBOTAPIKey` containing the API Key of the [telegram bot](https://core.telegram.org/bots/tutorial).
 
-Logging from API Gateway is disabled.
+Logging from API Gateway is disabled. Logging from Lambda is enabled.
 
 Configure and deploy with:
 ```bash
@@ -17,5 +17,5 @@ source .venv/bin/activate # Linux
 .venv\Scripts\activate.bat # Windows
 pip install -r requirements.txt
 cdk bootstrap
-$ cdk deploy
+cdk deploy
 ```
