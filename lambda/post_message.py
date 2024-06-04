@@ -43,7 +43,7 @@ def handler(event, lambda_context) -> None:
     url = event["release"]["html_url"]
 
     message = (
-        f"Hi!\nI'm glad to inform that version [{version}]({url}) of WGSE-NG was released. \U0001F389\U0001F389 "
+        f"Hi!\nI'm glad to inform that version [{version}]({url}) of DoubleHelix was released. \U0001F389\U0001F389 "
     )
     message += f"\n\n*Description*:\n"
     message += f"{body}"
