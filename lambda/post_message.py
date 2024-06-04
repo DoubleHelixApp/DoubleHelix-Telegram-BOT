@@ -51,7 +51,7 @@ def handler(event, lambda_context) -> None:
         message += "\n\n*NOTE*: This is a pre-release!\n"
     print(message)
     bot = Bot(token)
-    asyncio.run(bot.send_message("@WGSENG", message, parse_mode="markdown"))
+    asyncio.run(bot.send_message("@DoubleHelixApp", message, parse_mode="markdown"))
     return {
         "statusCode": 200,
         "headers": {"Content-Type": "text/plain"},
