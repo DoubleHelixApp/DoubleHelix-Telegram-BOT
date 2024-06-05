@@ -49,6 +49,7 @@ def handler(event, lambda_context) -> None:
     message += f"{body}"
     if event["action"] == "prereleased":
         message += "\n\n*NOTE*: This is a pre-release!\n"
+    message += "\n*Issues*? Comment below! ⬇️"
     print(message)
     bot = Bot(token)
     asyncio.run(bot.send_message("@DoubleHelixApp", message, parse_mode="markdown"))
