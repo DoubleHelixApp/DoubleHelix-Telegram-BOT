@@ -1,4 +1,4 @@
-# WGSE-NG Telegram BOT
+# DoubleHelix Telegram BOT
 
 This is a CDK project that deploy a stack with an API Gateway and a lambda on AWS that is used to send a message in a Telegram group.
 The API Gateway endpoint can be added as a webhook to a GitHub project to trigger the notification.
@@ -10,8 +10,8 @@ Logging from API Gateway is disabled. Logging from Lambda is enabled.
 
 Configure and deploy with:
 ```bash
-git clone https://github.com/WGSE-NG/WGSE-NG-Telegram-BOT
-cd WGSE-NG-Telegram-BOT
+git clone https://github.com/DoubleHelixApp/DoubleHelix-Telegram-BOT
+cd DoubleHelix-Telegram-BOT
 python -m venv .venv
 source .venv/bin/activate # Linux
 .venv\Scripts\activate.bat # Windows
